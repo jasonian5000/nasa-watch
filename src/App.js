@@ -7,10 +7,12 @@ import Homepage from './components/Homepage';
 function App() {
   return (
     <Router>
-      <NavBar />
+      <div className='root-container'>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Homepage />} />
         </Routes>
+      </div>
     </Router>
   );
 }
