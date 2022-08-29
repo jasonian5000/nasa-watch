@@ -1,14 +1,15 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import NasaImage from './NasaImage'
+import React from "react";
+import ApodPage from "./ApodPage";
+import JwPage from "./JwPage";
+import NasaPage from "./NasaPage";
+// import { VariableSizeList as List } from "react-window";
 
 export default function Homepage() {
-  const nasaSearchResult = useSelector((state) => state.nasa.nasaSearchResult.collection.items)
   return (
-    <div className='homepage'>
-      {nasaSearchResult?.map((result) => (
-        <NasaImage key={result.data[0].nasa_id} result={result} />
-      ))}
+    <div className="homepage">
+      <ApodPage />
+      <NasaPage />
+      <JwPage />
     </div>
   );
 }

@@ -1,14 +1,31 @@
 body {
   background-color: black;
+  color: #cdd0d3;
   text-align: center;
 }
 
 .homepage {
   display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  margin: 0px 10px;
+}
+
+.nasa-page, .apod-page, .jw-page {
+  flex: 1;
+  display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: black;
   padding-top: 75px;
+  max-height: calc(100vh - 80px);
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* max-width: 600px; */
+}
+
+.nasa-page::-webkit-scrollbar, .apod-page::-webkit-scrollbar, .jw-page::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-bar-container {
@@ -45,24 +62,24 @@ body {
 .link {
   display: flex;
   flex-direction: column;
-  color: #BCBDBE;
+  color: #bcbdbe;
   text-decoration: none;
 }
 
 .link:hover {
   text-decoration: none;
-  color: #E9E9EA;
+  color: #e9e9ea;
 }
 
-.nasa-image-card {
-  max-width: 540px;
+.nasa-image-card, .apod-image-card, .jw-image-card {
+  /* width: 540px; */
   background-color: #1d2226;
   color: #cdd0d3;
   padding: 0px 20px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 5px;
 }
 
-.nasa-image-card img {
-  max-width: 540px;
+.nasa-image-card img,.apod-image-card img, .jw-image-card img {
+  max-width: 100%;
 }
