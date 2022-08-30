@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function JwImage() {
+export default function JwImage({result}) {
   return (
     <div className='jw-image-card'>
-      image
+      <img src={result?.location} alt=""/>
     </div>
   )
 }

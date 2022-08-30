@@ -10,7 +10,7 @@ const NavBar = () => {
         <ul className="nav-bar-links">
           <li>
             <Link to="/" className='link'>
-                <i class="fas fa-home"></i>
+                <i className="fas fa-home"></i>
                 <span className="link-text">Home</span>
             </Link>
           </li>
