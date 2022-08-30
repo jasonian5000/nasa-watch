@@ -9,11 +9,12 @@ export default function SearchBar() {
   const dispatch = useDispatch();
   return (
     <div className="search-bar">
+      <i className="fa-solid fa-magnifying-glass"></i>
       <input
         type="text"
         onChange={(e) => setSearchInput(dispatch, e.target.value)}
         onKeyPress={(e) => handleKeyPress(e, dispatch, search)}
-        placeholder="search..."
+        placeholder="search NASA images..."
       />
     </div>
   );

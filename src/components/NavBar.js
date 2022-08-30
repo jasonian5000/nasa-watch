@@ -1,17 +1,38 @@
-import React from 'react'
-import {  Link } from "react-router-dom";
-import SearchBar from './SearchBar';
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/nasa_logo.png"
 
 const NavBar = () => {
   return (
     <div className="nav-bar-container">
       <div className="nav-bar">
-        <SearchBar />
+        <div className="nav-banner">
+          <img className="nav-logo" src={logo} alt="" />
+          <h1 className="nav-title">NASA WATCH</h1>
+        </div>
         <ul className="nav-bar-links">
           <li>
-            <Link to="/" className='link'>
-                <i className="fas fa-home"></i>
-                <span className="link-text">Home</span>
+            <Link to="/" className="link">
+              <i className="fas fa-home"></i>
+              <span className="link-text">Home</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/images" className="link">
+              <i className="fa-solid fa-camera"></i>
+              <span className="link-text">Images</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/news" className="link">
+              <i className="fa-solid fa-newspaper"></i>
+              <span className="link-text">News</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="link">
+              <i className="fa-solid fa-hashtag"></i>
+              <span className="link-text">Social</span>
             </Link>
           </li>
         </ul>

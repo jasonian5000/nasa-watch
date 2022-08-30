@@ -5,27 +5,35 @@ export default function ApodImage({ result }) {
   const [flipped, setFlipped] = useState(false);
   return (
     <div className="card-container">
-        <button className="card-button" onClick={() => setFlipped(!flipped)}>
-          <CSSTransition
-            in={!flipped}
-            timeout={1000}
-            classNames="front-face-transition"
-          >
-            <div className="card-front">
-              <p>{result?.title}</p>
+      <button className="card-button" onClick={() => setFlipped(!flipped)}>
+        <CSSTransition
+          in={!flipped}
+          timeout={1000}
+          classNames="front-face-transition"
+        >
+          <div className="card-front">
+            <div className="front-panel">
+              <h3 className="image-title">{result?.title}</h3>
               <img src={result?.url} alt="" />
             </div>
-          </CSSTransition>
-          <CSSTransition
-            in={flipped}
-            timeout={1000}
-            classNames="back-face-transition"
-          >
-            <div className="card-back">
-              <p>{result?.explanation ? result?.explanation: "No description available"}</p>
+          </div>
+        </CSSTransition>
+        <CSSTransition
+          in={flipped}
+          timeout={1000}
+          classNames="back-face-transition"
+        >
+          <div className="card-back">
+            <div className="image-desc">
+              <p>
+                {result?.explanation
+                  ? result?.explanation
+                  : "No description available"}
+              </p>
             </div>
-          </CSSTransition>
-        </button>
-      </div>
+          </div>
+        </CSSTransition>
+      </button>
+    </div>
   );
 }

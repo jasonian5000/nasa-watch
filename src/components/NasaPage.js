@@ -10,7 +10,6 @@ export default function NasaPage() {
   ))
   return (
     <div className='nasa-page'>
-      <h1>NASA Images</h1>
       {nasaSearchResult?.map((result) => (
         <NasaImage key={result.data[0].nasa_id} result={result} />
       ))}
