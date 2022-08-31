@@ -5,7 +5,7 @@ const nasa = (state = initialState, action) => {
     case "SET_SEARCH_RESULTS":
       return {
         ...state,
-        nasaSearchResult: action.payload,
+        nasaImageResults: action.payload,
       };
     case "SET_SEARCH_INPUT":
       return {

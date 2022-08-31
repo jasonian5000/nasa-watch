@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/nasa_logo.png"
+import "../css/NavBar.css"
 
 const NavBar = () => {
   return (
@@ -29,12 +30,12 @@ const NavBar = () => {
               <span className="link-text">News</span>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/" className="link">
               <i className="fa-solid fa-hashtag"></i>
               <span className="link-text">Social</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

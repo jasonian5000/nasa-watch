@@ -1,0 +1,28 @@
+.search-bar {
+  padding-top: 90px;
+}
+
+.search-bar i {
+  position: absolute;
+  padding: 10px ;
+}
+
+.search-bar input {
+  width: 280px;
+  transition:  ease-in-out, width .35s ease-in-out;
+  height: 34px;
+  padding: 0px 8px 0px 40px;
+  background-color: #2881e0;
+  color: #bcbdbe;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.search-bar input:focus {
+  width: 380px;
+  outline: none;
+}
+
+::placeholder {
+  color: #a9aaaa;
+}

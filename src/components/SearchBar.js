@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import handleKeyPress from "../actions/handleKeyPress";
 import setSearchInput from "../actions/setSearchInput";
+import "../css/SearchBar.css"
 
 export default function SearchBar() {
   let search = useSelector((state) => state.nasa.nasaSearchInput);

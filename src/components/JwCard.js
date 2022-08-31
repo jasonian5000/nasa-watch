@@ -1,6 +1,7 @@
 import React from "react";
+import "../css/Cards.css"
 
-export default function JwImage({ result }) {
+export default function JwCard({ result }) {
   return (
     <div className="card-container">
       <div className="card-front">

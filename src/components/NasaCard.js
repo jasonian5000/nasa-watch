@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
+import "../css/Cards.css"
 
-export default function NasaImage({ result }) {
+export default function NasaCard({ result }) {
   const [flipped, setFlipped] = useState(false);
   return (
     <div className="card-container">

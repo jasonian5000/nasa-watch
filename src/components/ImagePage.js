@@ -1,22 +1,23 @@
 import React from 'react'
-import ApodPage from "./ApodPage";
-import JwPage from "./JwPage";
-import NasaPage from "./NasaPage";
+import ApodContainer from "./ApodContainer";
+import JwContainer from "./JwContainer";
+import NasaContainer from "./NasaContainer";
 import SearchBar from "./SearchBar";
+import "../css/ImagePage.css"
 
 export default function ImagePage() {
   return (
     <div className="image-page">
       <SearchBar />
       <div className="image-column-heading">
-        <h1 className="page-title">ASTRONOMY PICTURE OF THE DAY</h1>
-        <h1 className="page-title">NASA IMAGES</h1>
-        <h1 className="page-title">JAMES WEBB IMAGES</h1>
+        <h1 className="page-title apod-title">ASTRONOMY PICTURE OF THE DAY</h1>
+        <h1 className="page-title nasa-title">NASA IMAGES</h1>
+        <h1 className="page-title jw-title">JAMES WEBB IMAGES</h1>
       </div>
       <div className="image-columns">
-        <ApodPage />
-        <NasaPage />
-        <JwPage />
+        <ApodContainer />
+        <NasaContainer />
+        <JwContainer />
       </div>
     </div>
   );

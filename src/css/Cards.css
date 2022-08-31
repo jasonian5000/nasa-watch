@@ -1,0 +1,135 @@
+.card-container {
+  background-color: #032949;
+  padding: 0px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.card-container .card-button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: transparent;
+  transform-style: preserve-3d;
+  perspective: 5000px;
+  padding: 0px;
+}
+
+.card-front img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.front-panel {
+  padding: 0px;
+  border: 0px;
+}
+
+
+.card-back {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+}
+
+.card-front,
+.card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #cdd0d3;
+}
+
+.front-face-transition-enter {
+  transform: rotateY(180deg);
+}
+.front-face-transition-enter-active {
+  transition: all 1000ms ease;
+  transform: rotateY(0deg);
+}
+.front-face-transition-enter-done {
+  transform: rotateY(0deg);
+}
+
+.front-face-transition-exit {
+  transform: rotateY(0deg);
+}
+
+.front-face-transition-exit-active {
+  transform: rotateY(180deg);
+  transition: all 1000ms ease;
+}
+
+.front-face-transition-exit-done {
+  transform: rotateY(180deg);
+}
+
+.back-face-transition-enter {
+  transform: rotateY(-180deg);
+  visibility: visible;
+}
+.back-face-transition-enter-active {
+  transform: rotateY(0deg);
+  transition: all 1000ms ease;
+  visibility: visible;
+}
+.back-face-transition-enter-done {
+  transform: rotateY(0deg);
+  visibility: visible;
+}
+
+.back-face-transition-exit {
+  transform: rotateY(0deg);
+  visibility: visible;
+}
+
+.back-face-transition-exit-active {
+  transform: rotateY(-180deg);
+  transition: all 1000ms ease;
+  visibility: visible;
+}
+
+.back-face-transition-exit-done {
+  transform: rotateY(-180deg);
+  visibility: visible;
+}
+
+.image-desc p::-webkit-scrollbar {
+  display: none;
+}
+
+.image-desc {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.63);
+  width: 100%;
+  max-height: 100%;
+}
+
+.image-desc p {
+  width: 70%;
+  max-height: 100%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+.image-title {
+  display: flex;
+  background: rgba(0, 0, 0, 0.63);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
