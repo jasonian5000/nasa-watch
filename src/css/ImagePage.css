@@ -1,5 +1,5 @@
 .image-page {
-  padding: 0px 10%;
+  padding: 70px 10% 0px;
 }
 
 .image-column-heading {
@@ -11,7 +11,7 @@
   flex: 1;
   font-family: 'Nasa', sans-serif;
   letter-spacing: 2.5px;
-  font-size: 1.5em;
+  font-size: 1.7vw;
 }
 
 .nasa-title {

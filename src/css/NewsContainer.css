@@ -1,9 +1,8 @@
-.space-flight-news {
-  flex: 1;
+.space-flight-news, .space-flight-reports {
   display: flex;
   flex-direction: column;
   background-color: transparent;
-  max-height: calc(100vh - 210px);
+  max-height: calc(100vh - 150px);
   overflow: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -11,6 +10,14 @@
   margin: 0px 10px;
 }
 
-.space-flight-news::-webkit-scrollbar {
+.space-flight-news {
+  flex: 3;
+}
+
+.space-flight-reports {
+  flex: 1;
+}
+
+.space-flight-news::-webkit-scrollbar, .space-flight-reports::-webkit-scrollbar {
   display: none;
 }

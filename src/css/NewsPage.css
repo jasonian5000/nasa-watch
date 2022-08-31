@@ -1,0 +1,17 @@
+.news-page {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 10% 0px 10%;
+}
+
+.column-heading {
+    display: flex;
+}
+
+.news {
+    flex: 3;
+}
+
+.news-column {
+    display: flex;
+}

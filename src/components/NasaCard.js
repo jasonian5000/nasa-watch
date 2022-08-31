@@ -14,7 +14,7 @@ export default function NasaCard({ result }) {
         >
           <div className="card-front">
             <div className="front-panel">
-              <h3 className="image-title">{result?.data[0]?.title}</h3>
+              <h3 className="card-title">{result?.data[0]?.title}</h3>
               <img src={result?.links[0]?.href} alt="" />
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function NasaCard({ result }) {
           classNames="back-face-transition"
         >
           <div className="card-back">
-            <div className="image-desc">
+            <div className="card-desc">
               <p>
                 {result.data[0].description_508
                   ? result.data[0].description_508

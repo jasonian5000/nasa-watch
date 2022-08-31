@@ -1,0 +1,20 @@
+.not-found {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    font-family: 'Nasa', sans-serif;
+}
+
+.not-found-title {
+    font-family: 'Nasa', sans-serif;
+    font-size: 6vw;
+    margin: 0;
+}
+
+.not-found-img {
+    width: 40vw;
+}

@@ -15,6 +15,7 @@ export default function SearchBar() {
         type="text"
         onChange={(e) => setSearchInput(dispatch, e.target.value)}
         onKeyPress={(e) => handleKeyPress(e, dispatch, search)}
+        value={search}
         placeholder="search NASA images..."
       />
     </div>

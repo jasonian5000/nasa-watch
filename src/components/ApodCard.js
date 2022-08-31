@@ -14,7 +14,7 @@ export default function ApodCard({ result }) {
         >
           <div className="card-front">
             <div className="front-panel">
-              <h3 className="image-title">{result?.title}</h3>
+              <h3 className="card-title">{result?.title}</h3>
               <img src={result?.url} alt="" />
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function ApodCard({ result }) {
           classNames="back-face-transition"
         >
           <div className="card-back">
-            <div className="image-desc">
+            <div className="card-desc">
               <p>
                 {result?.explanation
                   ? result?.explanation
