@@ -7,7 +7,7 @@ export default function NotFound() {
       <h1 className='not-found-title'>404</h1>
       <h1>That page does not exist.</h1>
       <p>
-        Looks like you're lost in space. Use a link above to come back
+        Looks like you're lost in space. Use a link to come back
         to Earth.
       </p>
       <img

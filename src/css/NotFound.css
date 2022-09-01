@@ -18,3 +18,9 @@
 .not-found-img {
     width: 40vw;
 }
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+    .not-found {
+        justify-content: start;
+    }
+}

@@ -13,7 +13,7 @@ export default function ApodCard({ result }) {
         className="card-button"
         onMouseEnter={() => flip()}
         onMouseLeave={() => flip()}
-        onClick={() => window.open(result?.url, "_blank")}
+        onClick={() => window.open(result?.hdurl, "_blank")}
       >
         <CSSTransition
           in={!flipped}

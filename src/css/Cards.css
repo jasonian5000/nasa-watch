@@ -109,9 +109,10 @@
 .card-desc {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.63);
   width: 100%;
-  max-height: 100%;
+  height: 100%;
 }
 
 .card-desc p {
@@ -125,6 +126,7 @@
 
 .card-title {
   display: flex;
+  flex-direction: column;
   background: rgba(0, 0, 0, 0.63);
   position: absolute;
   left: 0;
@@ -152,5 +154,10 @@
 @media only screen and (max-width: 800px), screen and (max-height: 600px) {
   .news-card, .report-card {
     font-size: 4vw;
+  }
+
+  .news-title {
+    height: 70px;
+    font-size: 1em;
   }
 }

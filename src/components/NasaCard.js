@@ -7,13 +7,14 @@ export default function NasaCard({ result }) {
   const flip = () => {
     setFlipped(!flipped);
   };
+  const imageLink = result?.links[0]?.href;
   return (
     <div className="card-container">
       <button
         className="card-button"
         onMouseEnter={() => flip()}
         onMouseLeave={() => flip()}
-        onClick={() => window.open(result?.links[0]?.href, '_blank')}
+        onClick={() => window.open(imageLink?.replace("thumb", "orig"), '_blank')}
       >
         <CSSTransition
           in={!flipped}
@@ -23,7 +24,7 @@ export default function NasaCard({ result }) {
           <div className="card-front">
             <div className="front-panel">
               <h3 className="card-title">{result?.data[0]?.title}</h3>
-              <img src={result?.links[0]?.href} alt="" />
+              <img src={imageLink} alt="" />
             </div>
           </div>
         </CSSTransition>
