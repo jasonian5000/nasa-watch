@@ -6,7 +6,6 @@ import "../css/SearchBar.css"
 
 export default function SearchBar() {
   let search = useSelector((state) => state.nasa.nasaSearchInput);
-  let nasa = useSelector((state) => state.nasa.nasaSearchResult);
   const dispatch = useDispatch();
   return (
     <div className="search-bar">

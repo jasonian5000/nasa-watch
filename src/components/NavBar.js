@@ -7,6 +7,7 @@ const NavBar = () => {
   return (
     <div className="nav-bar-container">
       <div className="nav-bar">
+        <img className="nav-logo-mobile" src={logo} alt="" />
         <div className="nav-banner">
           <img className="nav-logo" src={logo} alt="" />
           <h1 className="nav-title">NASA WATCH</h1>
@@ -30,12 +31,6 @@ const NavBar = () => {
               <span className="link-text">News</span>
             </Link>
           </li>
-          {/* <li>
-            <Link to="/" className="link">
-              <i className="fa-solid fa-hashtag"></i>
-              <span className="link-text">Social</span>
-            </Link>
-          </li> */}
         </ul>
       </div>
     </div>

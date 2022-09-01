@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
-import "../css/Cards.css"
+import "../css/Cards.css";
 
 export default function NasaCard({ result }) {
   const [flipped, setFlipped] = useState(false);
+  const flip = () => {
+    setFlipped(!flipped);
+  };
   return (
     <div className="card-container">
-      <button className="card-button" onClick={() => setFlipped(!flipped)}>
+      <button
+        className="card-button"
+        onMouseEnter={() => flip()}
+        onMouseLeave={() => flip()}
+        onClick={() => window.open(result?.links[0]?.href, '_blank')}
+      >
         <CSSTransition
           in={!flipped}
           timeout={1000}

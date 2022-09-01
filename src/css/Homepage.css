@@ -13,3 +13,20 @@
   max-width: 50vw;
   padding-right: 60px;
 }
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+  .homepage-container {
+    margin: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    width: 100vw;
+  }
+
+  .homepage-img {
+    display: flex;
+    padding: 0;
+    max-height: 25vh;
+    flex: 1;
+  }
+}

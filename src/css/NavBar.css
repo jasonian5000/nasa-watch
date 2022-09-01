@@ -25,7 +25,7 @@
 }
 
 .nav-title {
-  font-family: 'Nasa', sans-serif;
+  font-family: "Nasa", sans-serif;
   letter-spacing: 2.5px;
   font-size: 4vw;
   margin: 0;
@@ -36,7 +36,7 @@
   list-style: none;
   margin: 5px;
   padding: 0px 10px;
-  font-family: 'Nasa', sans-serif;
+  font-family: "Nasa", sans-serif;
 }
 
 .link {
@@ -54,4 +54,40 @@
 
 .link-text {
   padding-top: 8px;
+}
+
+.nav-logo-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+  .nav-bar-container {
+    position: relative;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .nav-title {
+    font-size: 10vw;
+    padding: 10px 0px;
+  }
+
+  .nav-logo-mobile {
+    display: block;
+    width: 50%;
+  }
+
+  .nav-bar-links {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.24);
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+  }
 }

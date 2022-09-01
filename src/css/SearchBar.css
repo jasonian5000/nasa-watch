@@ -22,3 +22,13 @@
 ::placeholder {
   color: #a9aaaa;
 }
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+  .search-bar {
+    padding-bottom: 25px;
+  }
+
+  .search-bar input:focus {
+    width: 90vw;
+  }
+}

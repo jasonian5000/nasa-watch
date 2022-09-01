@@ -1,10 +1,11 @@
 .image-page {
-  padding: 70px 10% 0px;
+padding-top: 70px;
 }
 
 .image-column-heading {
   display: flex;
   justify-content: space-between;
+  padding: 0 10%;
 }
 
 .page-title {
@@ -21,4 +22,29 @@
 .image-columns {
   display: flex;
   justify-content: space-around;
+    max-height: calc(100vh - 210px);
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 0 10%;
+}
+
+.image-columns::-webkit-scrollbar {
+  display: none;
+}
+
+.image-page-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+  .image-page-mobile {
+    display: block;
+    padding-top: 0px;
+  }
+
+  .image-page {
+    display: none;
+  }
+
 }
