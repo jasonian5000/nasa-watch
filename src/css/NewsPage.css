@@ -15,3 +15,17 @@
 .news-column {
     display: flex;
 }
+
+.news-page-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+    .news-page-mobile {
+        display: block;
+    }
+
+    .news-page {
+        display: none;
+    }
+}

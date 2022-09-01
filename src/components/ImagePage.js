@@ -69,8 +69,8 @@ export default function ImagePage() {
       <div className="image-page-mobile">
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs value={value} onChange={handleChange} aria-label="image tabs">
-            <Tab label="Picture of the Day" {...a11yProps(0)} />
-            <Tab label="Nasa Images" {...a11yProps(1)} />
+            <Tab label="Pic of the Day" {...a11yProps(0)} />
+            <Tab label="Nasa" {...a11yProps(1)} />
             <Tab label="James Webb" {...a11yProps(2)} />
           </Tabs>
         </Box>
@@ -78,6 +78,7 @@ export default function ImagePage() {
           <ApodContainer />
         </TabPanel>
         <TabPanel value={value} index={1}>
+          <SearchBar />
           <NasaContainer />
         </TabPanel>
         <TabPanel value={value} index={2}>

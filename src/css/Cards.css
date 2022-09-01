@@ -140,8 +140,17 @@
   font-size: 1vw;
 }
 
+.news-card {
+  font-size: 1.1vw;
+}
+
 .news-link {
   color: #cdd0d3;
   text-decoration: none;
-  font-size: 1.1vw;
+}
+
+@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+  .news-card, .report-card {
+    font-size: 4vw;
+  }
 }

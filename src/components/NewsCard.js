@@ -2,7 +2,7 @@ import "../css/Cards.css"
 
 export default function NewsCard({ result }) {
   return (
-    <div className="card-container">
+    <div className="card-container news-card">
       <a
         className="card-button news-link"
         target="_blank"
