@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/nasa_logo.png"
+import logo from "../assets/nasa_big.png"
 import "../css/NavBar.css"
 
 const NavBar = () => {
@@ -29,6 +29,12 @@ const NavBar = () => {
             <Link to="/news" className="link">
               <i className="fa-solid fa-newspaper"></i>
               <span className="link-text">News</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="link">
+              <i className="fa-regular fa-address-card"></i>
+              <span className="link-text">About</span>
             </Link>
           </li>
         </ul>
