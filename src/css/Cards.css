@@ -151,7 +151,7 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+@media only screen and (max-width: 800px) {
   .news-card, .report-card {
     font-size: 4vw;
   }

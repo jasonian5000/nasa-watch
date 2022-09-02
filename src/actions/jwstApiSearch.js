@@ -2,7 +2,7 @@ import setJwstResults from "./setJwstResults";
 
 const jwstApiSearch = async (dispatch) => {
   let myHeaders = new Headers();
-  myHeaders.append("X-API-KEY", "");
+  myHeaders.append("X-API-KEY", "428e6022-9d2d-4d09-b7b3-9fcf2d203e4d");
 
   let requestOptions = {
     method: "GET",

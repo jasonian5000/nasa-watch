@@ -37,7 +37,7 @@ padding-top: 70px;
   display: none;
 }
 
-@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+@media only screen and (max-width: 800px) {
   .image-page-mobile {
     display: block;
     padding-top: 0px;

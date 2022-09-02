@@ -23,7 +23,7 @@
   color: #a9aaaa;
 }
 
-@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+@media only screen and (max-width: 800px) {
   .search-bar {
     padding-bottom: 25px;
   }

@@ -20,7 +20,7 @@
   width: 30vw;
 }
 
-@media only screen and (max-width: 800px), screen and (max-height: 600px) {
+@media only screen and (max-width: 800px) {
   .my-links,
 .nasa-links {
   width: 100vw;
