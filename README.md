@@ -43,4 +43,15 @@ This project was primarily built in React, Redux, and CSS. I used several APIs i
 3. Styling and layout.
 - I was determined to use mostly raw css versus bootstrap or frameworks so that could get better at using this language. I have become accustomed to using Flexbox for most of my projects so the real challenge came in deciding on a design and color theme. I took inspiration for the colors from the NASA logo itself and page layout from websites like [Discord](www.discord.com) and [LinkedIn](www.linkedin.com). 
 
-You can read more about how I made this at dev.to.
+You can read more about how I made this at [dev.to](https://dev.to/jasonian5000/my-first-react-project-a-love-letter-to-nasa-5336).
+
+## Screenshots
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4ltqzem64hd8gheri8ds.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ra5qqn1o1is0qe5cq6o9.png)
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w1opihyxysno2hbis6u3.png)
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wzk2rcx2gbzp3sshe6q.png)
