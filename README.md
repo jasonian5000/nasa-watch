@@ -10,15 +10,15 @@ As a native of Houston, space travel and NASA were always a part of my life. Whe
 This project was primarily built in React, Redux, and CSS. I used several APIs including, [NASA Images API](https://images.nasa.gov/), [Astronomy Picture of the Day API](https://apod.nasa.gov/), [James Webb Space Telescope API](https://jwstapi.com/), and [Space Flight News API](https://www.spaceflightnewsapi.net/).
 
 ## Colors
-Main:
-background: #0064b2
-accent: #032949
-font: #cdd0d3
+**Main:**
+- background: #0064b2
+- accent: #032949
+- font: #cdd0d3
 
-Input field:
-background: #2881e0
-font: #e9e9ea
-placeholder: #a9aaaa
+**Input field:**
+- background: #2881e0
+- font: #e9e9ea
+- placeholder: #a9aaaa
 
 ## Usage
 1. Clone the repository using whatever method you are most comfortable. You may use the **Code** button above and follow one of the methods provided.
