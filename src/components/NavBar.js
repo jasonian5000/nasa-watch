@@ -14,25 +14,25 @@ const NavBar = () => {
         </div>
         <ul className="nav-bar-links">
           <li>
-            <Link to="/" className="link">
+            <Link to="/nasa-watch" className="link">
               <i className="fas fa-home"></i>
               <span className="link-text">Home</span>
             </Link>
           </li>
           <li>
-            <Link to="/images" className="link">
+            <Link to="/nasa-watch/images" className="link">
               <i className="fa-solid fa-camera"></i>
               <span className="link-text">Images</span>
             </Link>
           </li>
           <li>
-            <Link to="/news" className="link">
+            <Link to="/nasa-watch/news" className="link">
               <i className="fa-solid fa-newspaper"></i>
               <span className="link-text">News</span>
             </Link>
           </li>
           <li>
-            <Link to="/about" className="link">
+            <Link to="/nasa-watch/about" className="link">
               <i className="fa-regular fa-address-card"></i>
               <span className="link-text">About</span>
             </Link>
