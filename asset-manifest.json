@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nasa-watch/static/css/main.f4ee8122.css",
+    "main.js": "/nasa-watch/static/js/main.cde6b1d8.js",
+    "static/media/instagram.png": "/nasa-watch/static/media/instagram.40755e0b3091e33847b1.png",
+    "static/media/me.png": "/nasa-watch/static/media/me.223aa0287c6b9333c2da.png",
+    "static/media/nasa_big.png": "/nasa-watch/static/media/nasa_big.4ae055ab20441c0bf6bc.png",
+    "static/media/nasa.png": "/nasa-watch/static/media/nasa.7e9cc4d43301c5c27e05.png",
+    "static/media/devto.png": "/nasa-watch/static/media/devto.d83ec7144e42e8a15cd9.png",
+    "static/media/facebook.png": "/nasa-watch/static/media/facebook.221df653c93182e9f307.png",
+    "static/media/reddit.png": "/nasa-watch/static/media/reddit.5f7155c8314812ec9e06.png",
+    "static/media/launch.svg": "/nasa-watch/static/media/launch.44ff9a25fe6bc84bde6f267d1e3d869e.svg",
+    "static/media/linkedin.png": "/nasa-watch/static/media/linkedin.93e947dcdea3a703bd31.png",
+    "index.html": "/nasa-watch/index.html",
+    "main.f4ee8122.css.map": "/nasa-watch/static/css/main.f4ee8122.css.map",
+    "main.cde6b1d8.js.map": "/nasa-watch/static/js/main.cde6b1d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4ee8122.css",
+    "static/js/main.cde6b1d8.js"
+  ]
+}
