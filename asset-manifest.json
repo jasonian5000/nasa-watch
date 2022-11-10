@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nasa-watch/static/css/main.f4ee8122.css",
-    "main.js": "/nasa-watch/static/js/main.4f1d5aef.js",
+    "main.js": "/nasa-watch/static/js/main.4d3a6f2f.js",
     "static/media/instagram.png": "/nasa-watch/static/media/instagram.40755e0b3091e33847b1.png",
     "static/media/me.png": "/nasa-watch/static/media/me.223aa0287c6b9333c2da.png",
     "static/media/nasa_big.png": "/nasa-watch/static/media/nasa_big.4ae055ab20441c0bf6bc.png",
@@ -13,10 +13,10 @@
     "static/media/linkedin.png": "/nasa-watch/static/media/linkedin.93e947dcdea3a703bd31.png",
     "index.html": "/nasa-watch/index.html",
     "main.f4ee8122.css.map": "/nasa-watch/static/css/main.f4ee8122.css.map",
-    "main.4f1d5aef.js.map": "/nasa-watch/static/js/main.4f1d5aef.js.map"
+    "main.4d3a6f2f.js.map": "/nasa-watch/static/js/main.4d3a6f2f.js.map"
   },
   "entrypoints": [
     "static/css/main.f4ee8122.css",
-    "static/js/main.4f1d5aef.js"
+    "static/js/main.4d3a6f2f.js"
   ]
 }
