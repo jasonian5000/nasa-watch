@@ -10,14 +10,14 @@ import NotFound from "./components/NotFound";
 function App() {
   return (
     <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/images" element={<ImagePage />} />
-          <Route path="/news" element={<NewsPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/*" element={<NotFound />} />
-        </Routes>
+      <NavBar />
+      <Routes>
+        <Route path="/nasa-watch" element={<Homepage />} />
+        <Route path="/nasa-watch/images" element={<ImagePage />} />
+        <Route path="/nasa-watch/news" element={<NewsPage />} />
+        <Route path="/nasa-watch/about" element={<About />} />
+        <Route path="/nasa-watch/*" element={<NotFound />} />
+      </Routes>
     </Router>
   );
 }
